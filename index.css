@@ -32,6 +32,7 @@ body{
     -webkit-border-radius: 10px 10px 0px 0px;
     border-radius: 10px 10px 0px 0px; 
     height: 7.5%;
+    min-height: 25px;
     background: #f4f4f4;
     background: -moz-linear-gradient(top, #f4f4f4 0%, #ffffff 52%, #ededed 100%);
     background: -webkit-linear-gradient(top, #f4f4f4 0%,#ffffff 52%,#ededed 100%);
@@ -66,14 +67,16 @@ body{
 .title{
     flex: 0 0 20%;
     color:black;
+
 }
 
 .terminal-body{
     padding: 1.5% 2.5%;
-    min-height: 92.5%;
-    overflow-x: hidden;
+    height: 92.5%;
+    min-height: 500px;
+    overflow: auto;
     width: 100%;
-    overflow-y: scroll;
+
 }
 .terminal-body pre{
     color: white;
