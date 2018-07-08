@@ -1,4 +1,4 @@
-var data = {
+var data ={
     "basic_info": {
         "name": "Julian Ngo",
         "field": "UX Designer, Developer",
@@ -7,7 +7,7 @@ var data = {
     },
     "projects":[
         {
-        "name": "project name",
+        "name": "VEDA AI",
         "description": "what is this project about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
@@ -20,8 +20,10 @@ var data = {
         }
     ]
 }
-var begStr = "vi julian.json";
+
+var begStr = "vi julian.json \n";
 var string = JSON.stringify(data, undefined, 2);
+var stringLink = '<a href="https://www.google.com/">test</a>';
 
 var typing = ' ';
 var i = 0; 
@@ -43,10 +45,35 @@ function type(str) {
   }, ran)
   i++;
 };
-    
+
+function typeHTML(str) {
+  if(i < str.length){
+    typing = typing+str.charAt(i);
+    $('#textHere').html(typing+'_');
+  }else{
+    $('#textHere').html(typing);
+    return false;
+  }
+    var ran = 0;
+  setTimeout(function(){
+    typeHTML(str);
+  }, ran)
+  i++;
+};
+
 $(document).ready(function(){
-    i = 0;
-    type(string);
+    setTimeout(function(){
+        i = 0;
+        type(begStr);
+    },1000);
+    setTimeout(function(){
+        i=0;
+        type(string);
+    },2500);
+    setTimeout(function(){
+        i=0;
+        typeHTML(stringLink);
+    },6000);
     //$('#textHere').text(stringText);
 })
 

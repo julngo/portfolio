@@ -83,7 +83,7 @@ body{
     font-size: 1.15rem;
     line-height: 1.25rem;
     position: absolute;
-    width: 100$;
+    width: auto;
     padding-left: 7%;
     padding-right: 7%;
     padding-bottom: 5%;
