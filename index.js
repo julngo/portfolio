@@ -1,13 +1,13 @@
 var data ={
     "basic_info": {
-        "name": "Julian Ngo",
+    "name": "Julian Ngo",
         "field": "UX Designer, Developer",
         "email": "julngo@uw.edu",
         "linkedin": "insertlinkedinadress.com"
     },
     "projects":[
         {
-        "name": "VEDA AI",
+        "name": "<a href='https://www.google.com/'>VEDA AI</a>",
         "description": "what is this project about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
@@ -68,12 +68,8 @@ $(document).ready(function(){
     },1000);
     setTimeout(function(){
         i=0;
-        type(string);
+        typeHTML(string);
     },2500);
-    setTimeout(function(){
-        i=0;
-        typeHTML(stringLink);
-    },6000);
     //$('#textHere').text(stringText);
 })
 
