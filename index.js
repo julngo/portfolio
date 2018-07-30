@@ -17,13 +17,24 @@ var data ={
         "description": "what is this project about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
+        },
+        {
+        "name": "project name",
+        "description": "what is this project about in few sentences",
+        "type": "app prototype? ux design? website?",
+        "frameworks": "optional: ex. cakephp"
+        },
+        {
+        "name": "project name",
+        "description": "what is this project about in few sentences",
+        "type": "app prototype? ux design? website?",
+        "frameworks": "optional: ex. cakephp"
         }
     ]
 }
 
 var begStr = "vi julian.json \n";
 var string = JSON.stringify(data, undefined, 2);
-var stringLink = '<a href="https://www.google.com/">test</a>';
 
 var typing = ' ';
 var i = 0; 
@@ -69,8 +80,7 @@ $(document).ready(function(){
     setTimeout(function(){
         i=0;
         typeHTML(string);
-    },2500);
-    //$('#textHere').text(stringText);
+    },2500); 
 })
 
 

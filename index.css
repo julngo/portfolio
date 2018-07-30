@@ -21,9 +21,9 @@ body{
     -webkit-box-shadow: 0px 3px 33px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 0px 3px 33px 0px rgba(0,0,0,0.4);
     box-shadow: 0px 3px 33px 0px rgba(0,0,0,0.4);
-    background-color: black;
+    background-color: white;
     width: 90%;
-    height: 80vh;
+    height: 90vh;
 }
 .terminal-title{
     display: flex;
@@ -39,7 +39,7 @@ body{
     background: linear-gradient(to bottom, #f4f4f4 0%,#ffffff 52%,#ededed 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ededed',GradientType=0 );
 }
-.buttons{
+.term-buttons{
     display: inline-flex;
     height: 100%;
     align-items: center;
@@ -47,20 +47,20 @@ body{
     margin-left: 1%;
     flex: 0 0 40%;
 }
-.buttons div{
+.term-buttons div{
     width: 18px;
     height: 18px;
     border-radius: 50%;
     margin: 0% 1%;
 }
 
-#red{
+#term-red{
     background-color: SALMON;
 }
-#yellow{
+#term-yellow{
     background-color: GOLD;
 }
-#green{
+#term-green{
     background-color: LIGHTGREEN;
 }
 
@@ -71,7 +71,6 @@ body{
 }
 
 .terminal-body{
-    padding: 1.5% 2.5%;
     height: 92.5%;
     min-height: 500px;
     overflow: auto;
@@ -79,14 +78,23 @@ body{
 
 }
 .terminal-body pre{
-    color: white;
     font-size: 1.15rem;
     line-height: 1.25rem;
+    color: black;
+}
+
+.project-view{
     position: absolute;
-    width: auto;
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-bottom: 5%;
-    bottom: 0;
-    left: 0;
+}
+
+.transform{
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.transform-active{
+    
 }
