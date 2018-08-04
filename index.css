@@ -25,13 +25,14 @@ body{
     width: 90%;
     height: 90vh;
 }
-.terminal-title{
+
+.terminal-title, .project-title{
     display: flex;
     align-items: center;
     -moz-border-radius: 0px;
     -webkit-border-radius: 10px 10px 0px 0px;
     border-radius: 10px 10px 0px 0px; 
-    height: 7.5%;
+    height: 5%;
     min-height: 25px;
     background: #f4f4f4;
     background: -moz-linear-gradient(top, #f4f4f4 0%, #ffffff 52%, #ededed 100%);
@@ -39,7 +40,8 @@ body{
     background: linear-gradient(to bottom, #f4f4f4 0%,#ffffff 52%,#ededed 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ededed',GradientType=0 );
 }
-.term-buttons{
+
+.term-buttons, .proj-buttons{
     display: inline-flex;
     height: 100%;
     align-items: center;
@@ -47,21 +49,29 @@ body{
     margin-left: 1%;
     flex: 0 0 40%;
 }
-.term-buttons div{
-    width: 18px;
-    height: 18px;
+
+.active div{
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
-    margin: 0% 1%;
+    margin: 0% .5%;
 }
 
-#term-red{
+.red{
     background-color: SALMON;
 }
-#term-yellow{
+.yellow{
     background-color: GOLD;
 }
-#term-green{
+.green{
     background-color: LIGHTGREEN;
+}
+
+.active div img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 25%;
 }
 
 .title{
@@ -71,7 +81,7 @@ body{
 }
 
 .terminal-body{
-    height: 92.5%;
+    height: 95%;
     min-height: 500px;
     overflow: auto;
     width: 100%;
@@ -84,17 +94,26 @@ body{
 }
 
 .project-view{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 0px 3px 33px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 3px 33px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 3px 33px 0px rgba(0,0,0,0.4);
     position: absolute;
+    width: 0px;
+    height: 0px;
 }
 
 .transform{
-    -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -o-transition: all 2s ease;
-    -ms-transition: all 2s ease;
-    transition: all 2s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .transform-active{
-    
+    width: 100%;
+    height: 100vh;
+    background-color: black;
 }

@@ -4,18 +4,16 @@
         <title>Julian Ngo Portfolio</title>
         <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
-        <script type="text/javascript" src="index.js"></script>
     </head>
 
     <body>
         <div class="container">
             <div class="terminal">
                 <div class="terminal-title">
-                    <div class="term-buttons">
-                        <div id='term-red'></div>
-                        <div id='term-yellow'></div>
-                        <div id='term-green'></div>
+                    <div class="term-buttons active">
+                        <div class="red"></div>
+                        <div class="yellow"></div>
+                        <div class="green"></div>
                     </div>
                     <span class="title">Julian Ngo Portfolio</span>
                 </div>
@@ -26,9 +24,9 @@
             <div class="project-view transform">
                 <div class="project-title">
                     <div class="proj-buttons">
-                        <div id='proj-red'></div>
-                        <div id='proj-yellow'></div>
-                        <div id='proj-green'></div>
+                        <div onclick="closeWindow()" class="red"></div>
+                        <div class="yellow"></div>
+                        <div class="green"></div>
                     </div>
                     <span class="project-name-fill"></span>
                 </div>
@@ -38,4 +36,7 @@
             </div>
         </div>
     </body>
+    
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <script type="text/javascript" src="index.js"></script>
 </html>

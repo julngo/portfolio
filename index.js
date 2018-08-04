@@ -7,7 +7,7 @@ var data ={
     },
     "projects":[
         {
-        "name": "<a href='https://www.google.com/'>VEDA AI</a>",
+        "name": "<a onclick='openWindow()'>VEDA AI</a>",
         "description": "what is this project about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
@@ -83,4 +83,23 @@ $(document).ready(function(){
     },2500); 
 })
 
+function openWindow(){
+    $('.project-view').addClass("transform-active");
+    $('.proj-buttons').addClass("active");
+}
 
+function closeWindow(){
+    $('.project-view').removeClass("transform-active");
+    $('.proj-buttons').removeClass("active");
+}
+
+$('.proj-buttons div').hover(
+    //onhover
+    function(){
+        $('.proj-buttons .red').append("<img src='close.gif' width='50%' id='close'>");
+    },
+    //exithover
+    function(){
+        $('.proj-buttons div img').remove();
+    }
+);
