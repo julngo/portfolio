@@ -7,25 +7,25 @@ var data ={
     },
     "projects":[
         {
-        "name": "<a onclick='openWindow()'>VEDA AI</a>",
+        "name": "<a onclick='openWindow()' class='blue-text'>Project 1</a>",
         "description": "what is this project about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
         },
         {
-        "name": "project name",
+        "name": "<a onclick='openWindow()' class='blue-text'>Project 2</a>",
         "description": "what is this project about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
         },
         {
-        "name": "project name",
+        "name": "<a onclick='openWindow()' class='blue-text'>Project 3</a>",
         "description": "what is this project about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
         },
         {
-        "name": "project name",
+        "name": "<a onclick='openWindow()' class='blue-text'>Project 4</a>",
         "description": "what is this project about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
@@ -89,6 +89,7 @@ function openWindow(){
 }
 
 function closeWindow(){
+    $('.proj-buttons div img').remove();
     $('.project-view').removeClass("transform-active");
     $('.proj-buttons').removeClass("active");
 }
