@@ -94,6 +94,24 @@ function closeWindow(){
     $('.proj-buttons').removeClass("active");
 }
 
+function leaveWebsite(){
+    if(confirm("Do you want to leave?") == true){
+        //window.history.back();
+        close();
+    }
+}
+
+$('.term-buttons div').hover(
+    //onhover
+    function(){
+        $('.term-buttons .red').append("<img src='close.gif' width='50%' id='close'>");
+    },
+    //exithover
+    function(){
+        $('.term-buttons div img').remove();
+    }
+);
+
 $('.proj-buttons div').hover(
     //onhover
     function(){
