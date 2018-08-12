@@ -73,6 +73,13 @@ a{
 .blue-text{
     color: blue;
 }
+.close{
+    
+}
+.minimize{
+    padding-top: 45%;
+}
+
 
 .active div img{
     margin-left: auto;

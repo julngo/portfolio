@@ -104,7 +104,8 @@ function leaveWebsite(){
 $('.term-buttons div').hover(
     //onhover
     function(){
-        $('.term-buttons .red').append("<img src='close.gif' width='50%' id='close'>");
+        $('.term-buttons .red').append("<img src='close.svg' width='50%' class='close'>");
+        $('.term-buttons .yellow').append("<img src='minimize.svg' width='50%' class='minimize'>");
     },
     //exithover
     function(){
@@ -115,7 +116,8 @@ $('.term-buttons div').hover(
 $('.proj-buttons div').hover(
     //onhover
     function(){
-        $('.proj-buttons .red').append("<img src='close.gif' width='50%' id='close'>");
+        $('.proj-buttons .red').append("<img src='close.svg' width='50%' class='close'>");
+        $('.proj-buttons .yellow').append("<img src='minimize.svg' width='50%' class='minimize'>");
     },
     //exithover
     function(){
