@@ -106,6 +106,7 @@ $('.term-buttons div').hover(
     function(){
         $('.term-buttons .red').append("<img src='close.svg' width='50%' class='close'>");
         $('.term-buttons .yellow').append("<img src='minimize.svg' width='50%' class='minimize'>");
+        $('.term-buttons .green').append("<img src='enlarge.svg' width='50%' class='enlarge'>");
     },
     //exithover
     function(){
@@ -118,6 +119,7 @@ $('.proj-buttons div').hover(
     function(){
         $('.proj-buttons .red').append("<img src='close.svg' width='50%' class='close'>");
         $('.proj-buttons .yellow').append("<img src='minimize.svg' width='50%' class='minimize'>");
+        $('.proj-buttons .green').append("<img src='enlarge.svg' width='50%' class='enlarge'>");
     },
     //exithover
     function(){
