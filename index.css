@@ -77,7 +77,7 @@ a{
     
 }
 .minimize{
-    padding-top: 45%;
+    padding-top: 25%;
 }
 
 
@@ -88,7 +88,7 @@ a{
     margin-top: 25%;
 }
 
-.title{
+.title, .project-name-fill{
     flex: 0 0 20%;
     color:black;
 
@@ -132,4 +132,10 @@ a{
     height: 100vh;
     background-color: black;
     margin-top: 0%;
+}
+
+.project-content{
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
 }
