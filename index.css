@@ -35,7 +35,7 @@ a{
     -moz-border-radius: 0px;
     -webkit-border-radius: 10px 10px 0px 0px;
     border-radius: 10px 10px 0px 0px; 
-    height: 5%;
+    height: 25px;
     min-height: 25px;
     background: #f4f4f4;
     background: -moz-linear-gradient(top, #f4f4f4 0%, #ffffff 52%, #ededed 100%);
@@ -49,15 +49,15 @@ a{
     height: 100%;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 1%;
+    margin-left: 6px;
     flex: 0 0 40%;
 }
 
 .active div{
-    width: 13px;
-    height: 13px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    margin: 0% .5%;
+    margin: 0% 3px;
     cursor: pointer;
 }
 
@@ -91,7 +91,6 @@ a{
 .title, .project-name-fill{
     flex: 0 0 20%;
     color:black;
-
 }
 
 .terminal-body{
@@ -99,8 +98,8 @@ a{
     min-height: 500px;
     overflow: auto;
     width: 100%;
-
 }
+
 .terminal-body pre{
     font-size: 1.15rem;
     line-height: 1.25rem;
