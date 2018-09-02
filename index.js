@@ -3,7 +3,7 @@ var data ={
     "name": "Julian Ngo",
         "field": "UX Designer, Developer",
         "email": "julngo@uw.edu",
-        "linkedin": 
+        "linkedin": "UH"
     },
     "projects":[
         {
