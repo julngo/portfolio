@@ -136,11 +136,11 @@ function projectOne(){
     setTimeout(function(){
         i=0;
         $('.project-content').html(
-            "<img src='VedaAI_Logo.png'> <h1>Roles:</h1> <p>Group Manager, Lead App Developer, and Designer</p>"
+            '<div id="nav-bar"> <ul> <li><img style="float: left" id="headerPic" src="VedaAI_Logo.png"></li> <li><a>TEXT</a></li> <li><a>TEXT</a></li> <li><a>TEXT</a></li>  <li><a>TEXT</a></li> <li><a>TEXT</a></li> </ul> </div> <h1>Roles:</h1> <p>Group Manager, Lead App Developer, and Designer</p> <div id="project-body"> <iframe src="https://player.vimeo.com/video/259108778" width="640" height="360" frameborder="0" allowfullscreen></iframe> </div>'
             
         
-        );;
+        );
     },1000.5); 
     
     
-};
+}
