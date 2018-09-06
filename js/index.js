@@ -83,19 +83,6 @@ $(document).ready(function(){
     },2500); 
 })
 
-function openWindow(){
-    $('.project-view').addClass("transform-active");
-    $('.proj-buttons').addClass("active");
-}
-
-function closeWindow(){
-    $('.proj-buttons div img').remove();
-    $('.project-name-fill').empty();
-    $('.project-content').empty();
-    $('.project-view').removeClass("transform-active");
-    $('.proj-buttons').removeClass("active");
-}
-
 function leaveWebsite(){
     if(confirm("Do you want to leave?") == true){
         //window.history.back();
@@ -106,9 +93,9 @@ function leaveWebsite(){
 $('.term-buttons div').hover(
     //onhover
     function(){
-        $('.term-buttons .red').append("<img src='close.svg' width='65%' class='close'>");
-        $('.term-buttons .yellow').append("<img src='minimize.svg' width='65%' class='minimize'>");
-        $('.term-buttons .green').append("<img src='enlarge.svg' width='65%' class='enlarge'>");
+        $('.term-buttons .red').append("<img src='images/close.svg' width='60%' class='close'>");
+        $('.term-buttons .yellow').append("<img src='images/minimize.svg' width='60%' class='minimize'>");
+        $('.term-buttons .green').append("<img src='images/enlarge.svg' width='60%' class='enlarge'>");
     },
     //exithover
     function(){
@@ -119,9 +106,9 @@ $('.term-buttons div').hover(
 $('.proj-buttons div').hover(
     //onhover
     function(){
-        $('.proj-buttons .red').append("<img src='close.svg' width='65%' class='close'>");
-        $('.proj-buttons .yellow').append("<img src='minimize.svg' width='65%' class='minimize'>");
-        $('.proj-buttons .green').append("<img src='enlarge.svg' width='65%' class='enlarge'>");
+        $('.proj-buttons .red').append("<img src='images/close.svg' width='60%' class='close'>");
+        $('.proj-buttons .yellow').append("<img src='images/minimize.svg' width='60%' class='minimize'>");
+        $('.proj-buttons .green').append("<img src='images/enlarge.svg' width='60%' class='enlarge'>");
     },
     //exithover
     function(){
@@ -129,18 +116,3 @@ $('.proj-buttons div').hover(
     }
 );
 
-function projectOne(){
-    openWindow();
-    //Veda Project
-    $('.project-name-fill').text("VEDA AI");
-    setTimeout(function(){
-        i=0;
-        $('.project-content').html(
-            '<div id="nav-bar"> <ul> <li><img style="float: left" id="headerPic" src="VedaAI_Logo.png"></li> <li><a>TEXT</a></li> <li><a>TEXT</a></li> <li><a>TEXT</a></li>  <li><a>TEXT</a></li> <li><a>TEXT</a></li> </ul> </div> <h1>Roles:</h1> <p>Group Manager, Lead App Developer, and Designer</p> <div id="project-body"> <iframe src="https://player.vimeo.com/video/259108778" width="640" height="360" frameborder="0" allowfullscreen></iframe> </div>'
-            
-        
-        );
-    },1000.5); 
-    
-    
-}

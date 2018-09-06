@@ -24,3 +24,8 @@ iframe{
 #nav-bar ul li{
     display: inline-block;
 }
+
+#nav-bar ul li:hover{
+    display: inline-block;
+    opacity: .5%;
+}

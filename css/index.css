@@ -50,11 +50,12 @@ a{
     justify-content: flex-start;
     margin-left: 6px;
     flex: 0 0 40%;
+    width: 20%;
 }
 
 .active div{
-    width: 10px;
-    height: 10px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
     margin: 0% 3px;
     cursor: pointer;
@@ -73,22 +74,29 @@ a{
     color: blue;
 }
 .close{
-    
+    padding-right: 0.5px;
+    padding-top: 1px;
 }
 .minimize{
     padding-top: 25%;
 }
 
+.enlarge{
+    padding-right: 0.5px;
+    padding-top: 1px;
+}
 
 .active div img{
     margin-left: auto;
     margin-right: auto;
+    padding-left: 0.5px;
     display: block;
-    margin-top: 25%;
+    margin-top: 2px;
 }
 
 .title, .project-name-fill{
     flex: 0 0 20%;
+    width: 100%;
     color:black;
 }
 
@@ -122,6 +130,7 @@ a{
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
