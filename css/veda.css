@@ -5,11 +5,10 @@ iframe{
 }
 
 #headerPic{
-    width: 45%;
+    width: 100%;
 }
 
 #nav-bar{
-    display: inline-block;
     width: 100%;
 }
 
@@ -18,14 +17,19 @@ iframe{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    text-align: center;
 }
 
 #nav-bar ul li{
     display: inline-block;
+    float: right;
 }
 
-#nav-bar ul li:hover{
+#nav-bar ul li div{
+    padding: 5px;
+}
+
+#nav-bar ul li div:hover{
     display: inline-block;
-    opacity: .5%;
+    background-color: white;
+    color: aqua;
 }
