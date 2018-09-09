@@ -25,7 +25,10 @@ iframe{
 }
 
 #nav-bar ul li div{
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 #nav-bar ul li div:hover{

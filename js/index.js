@@ -7,26 +7,26 @@ var data ={
     },
     "projects":[
         {
-        "name": "<a onclick='projectOne()' class='blue-text'>Project 1</a>",
-        "description": "what is this project about in few sentences",
+        "name": "<a onclick='projectOne()' class='blue-text'>VEDA AI</a>",
+        "description": "what this project is about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
         },
         {
         "name": "<a onclick='openWindow()' class='blue-text'>Project 2</a>",
-        "description": "what is this project about in few sentences",
+        "description": "what this project is about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
         },
         {
         "name": "<a onclick='openWindow()' class='blue-text'>Project 3</a>",
-        "description": "what is this project about in few sentences",
+        "description": "what this project is about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
         },
         {
         "name": "<a onclick='openWindow()' class='blue-text'>Project 4</a>",
-        "description": "what is this project about in few sentences",
+        "description": "what this project is about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
         }
