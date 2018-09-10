@@ -1,3 +1,8 @@
+.vedaBGC{
+    background-color: white;
+    color: black;
+}
+
 iframe{
     display: block;
     margin: 0 auto;
@@ -33,6 +38,16 @@ iframe{
 
 #nav-bar ul li div:hover{
     display: inline-block;
-    background-color: white;
-    color: aqua;
+    background-color: #B4DFFE;
+    color: #0075D9;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+hr{
+    border-color: #0091F7;
 }

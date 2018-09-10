@@ -13,7 +13,7 @@ var data ={
         "frameworks": "optional: ex. cakephp"
         },
         {
-        "name": "<a onclick='openWindow()' class='blue-text'>Project 2</a>",
+        "name": "<a onclick='projectTwo()' class='blue-text'>Send Help</a>",
         "description": "what this project is about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
@@ -116,3 +116,17 @@ $('.proj-buttons div').hover(
     }
 );
 
+function closeWindow(){
+    $('.proj-buttons div img').remove();
+    $('.project-name-fill').empty();
+    $('.project-content').empty();
+    $('.project-view').removeClass("transform-active");
+    $('.proj-buttons').removeClass("active");
+    $('.project-view').removeClass("vedaBGC");
+    $('.project-view').removeClass("sendHelpBGC");
+    $('header').removeClass("veda");
+    $('header').removeClass("sendHelp");
+    $('header').removeClass("ATCS");
+    $('header').removeClass("zuluMenu");
+    
+}

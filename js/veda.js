@@ -2,16 +2,8 @@ function openWindow(){
     $('.project-view').addClass("transform-active");
     $('.proj-buttons').addClass("active");
 }
-
-function closeWindow(){
-    $('.proj-buttons div img').remove();
-    $('.project-name-fill').empty();
-    $('.project-content').empty();
-    $('.project-view').removeClass("transform-active");
-    $('.proj-buttons').removeClass("active");
-}
 //<img id="headerPic" src="images/VedaAI_Logo.png">
-var pageHeader = '<div id="nav-bar"> <ul> <li style="float: left; width: 200px;" ><img id="headerPic" src="images/VedaAI_Logo.png"></li> <li onclick="fillPageFour()"><a><div>More Info</div></a></li> <li onclick="fillPageThree()"><a><div>Drafts & Prototypes</div></a></li> <li onclick="fillPageTwo()"><a><div>Research</div></a></li> <li onclick="fillPageOne()"><a><div>Home</div></a></li> </ul> </div> <hr><div class="veda-content"></div>';
+var pageHeader = '<div id="nav-bar"> <ul> <li style="float: left; width: 200px;" ><img id="headerPic" src="images/VedaAI_Logo.png"></li> <li onclick="fillPageFour()"><a><div>More Info</div></a></li> <li onclick="fillPageThree()"><a><div>Drafts & Prototypes</div></a></li> <li onclick="fillPageTwo()"><a><div>Research</div></a></li> <li onclick="fillPageOne()"><a><div>Home</div></a></li> </ul> </div> <hr> <div class="veda-content"></div>';
 
 var pageOne =  '<h1>VEDA AI</h1><iframe src="https://player.vimeo.com/video/259108778" width="640" height="360" frameborder="0" allowfullscreen></iframe> </div> <div> <h3>Features:</h3> <ul> <li><p>Wearable & Easy To Use Device</p></li> <li><p>A.I. to Monitor Health & Surroundings</p></li> <li><p>Connect to Pre-existing Smart Devices</p></li> <li><p>App Pairing to Create Reminders and Tasks</p></li>  </ul> ';
 
@@ -24,12 +16,14 @@ var pageFour = '<h3>Problem/Topic & Purpose:</h3> <p> In this class project, we 
 var i = 0;
 function projectOne(){
     openWindow();
+    $('head').append('<link class="veda" href="css/veda.css" rel="stylesheet">');
+    $('.project-view').addClass("vedaBGC");
     //Veda Project
     $('.project-name-fill').text("VEDA AI");
     setTimeout(function(){
         i=0;
-        $('.project-content').html(pageHeader);
-        $('.veda-content').html(pageOne);
+        $('.project-content').html(this.pageHeader);
+        $('.veda-content').html(this.pageOne);
     },1000.5); 
 }
 
@@ -40,20 +34,20 @@ function removeVedaContent(){
 
 function fillPageOne(){
     removeVedaContent();
-    $('.veda-content').html(pageOne);
+    $('.veda-content').html(this.pageOne);
 }
 
 function fillPageTwo(){
     removeVedaContent();
-    $('.veda-content').html(pageTwo);
+    $('.veda-content').html(this.pageTwo);
 }
 
 function fillPageThree(){
     removeVedaContent();
-    $('.veda-content').html(pageThree);
+    $('.veda-content').html(this.pageThree);
 }
 
 function fillPageFour(){
     removeVedaContent();
-    $('.veda-content').html(pageFour);
+    $('.veda-content').html(this.pageFour);
 }
