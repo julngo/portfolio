@@ -3,7 +3,7 @@ function openWindow(){
     $('.proj-buttons').addClass("active");
 }
 //<img id="headerPic" src="images/VedaAI_Logo.png">
-var VedaPageHeader = '<div id="nav-bar"> <ul> <li style="float: left; width: 200px;" ><img onclick="fillPageOne()" id="headerPic" src="images/VedaAI_Logo.png"></li> <li onclick="fillPageFour()"><a><div>More Info</div></a></li> <li onclick="fillPageThree()"><a><div>Drafts & Prototypes</div></a></li> <li onclick="fillPageTwo()"><a><div>Research</div></a></li> <li onclick="fillPageOne()"><a><div>Home</div></a></li> </ul> </div> <hr> <div class="veda-content"></div>';
+var VedaPageHeader = '<div id="nav-bar"> <ul> <li style="float: left; width: 200px;" ><img onclick="fillVedaPageOne()" id="headerPic" src="images/VedaAI_Logo.png"></li> <li onclick="fillVedaPageFour()"><a><div>More Info</div></a></li> <li onclick="fillVedaPageThree()"><a><div>Drafts & Prototypes</div></a></li> <li onclick="fillVedaPageTwo()"><a><div>Research</div></a></li> <li onclick="fillVedaPageOne()"><a><div>Home</div></a></li> </ul> </div> <hr> <div class="veda-content"></div>';
 
 var VedaPageOne =  '<h1>VEDA AI</h1><iframe src="https://player.vimeo.com/video/259108778" width="640" height="360" frameborder="0" allowfullscreen></iframe> </div> <div> <h3>Features:</h3> <ul> <li><p>Wearable & Easy To Use Device</p></li> <li><p>A.I. to Monitor Health & Surroundings</p></li> <li><p>Connect to Pre-existing Smart Devices</p></li> <li><p>App Pairing to Create Reminders and Tasks</p></li>  </ul> ';
 
@@ -32,22 +32,22 @@ function removeVedaContent(){
     $('.project-content').append('<div class="veda-content"></div>');
 }
 
-function fillPageOne(){
+function fillVedaPageOne(){
     removeVedaContent();
     $('.veda-content').html(VedaPageOne);
 }
 
-function fillPageTwo(){
+function fillVedaPageTwo(){
     removeVedaContent();
     $('.veda-content').html(VedaPageTwo);
 }
 
-function fillPageThree(){
+function fillVedaPageThree(){
     removeVedaContent();
     $('.veda-content').html(VedaPageThree);
 }
 
-function fillPageFour(){
+function fillVedaPageFour(){
     removeVedaContent();
     $('.veda-content').html(VedaPageFour);
 }

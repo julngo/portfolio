@@ -3,7 +3,7 @@ function openWindow(){
     $('.proj-buttons').addClass("active");
 }
 
-function projectThree(){
+function projectFour(){
     openWindow();
     $('head').append('<link class="zuluMenu" href="css/zuluMenu.css" rel="stylesheet">');
     $('.project-view').addClass("zuluMenuBGC");
