@@ -19,13 +19,13 @@ var data ={
         "frameworks": "optional: ex. cakephp"
         },
         {
-        "name": "<a onclick='openWindow()' class='blue-text'>Project 3</a>",
+        "name": "<a onclick='projectThree()' class='blue-text'>A Thing Called Stress</a>",
         "description": "what this project is about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
         },
         {
-        "name": "<a onclick='openWindow()' class='blue-text'>Project 4</a>",
+        "name": "<a onclick='projectFour()' class='blue-text'>Project 4</a>",
         "description": "what this project is about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
@@ -124,9 +124,9 @@ function closeWindow(){
     $('.proj-buttons').removeClass("active");
     $('.project-view').removeClass("vedaBGC");
     $('.project-view').removeClass("sendHelpBGC");
-    $('header').removeClass("veda");
-    $('header').removeClass("sendHelp");
-    $('header').removeClass("ATCS");
-    $('header').removeClass("zuluMenu");
+    $('.veda').remove();
+    $('.sendHelp').remove();
+    $('.ATCS').remove();
+    $('.zuluMenu').remove();
     
 }

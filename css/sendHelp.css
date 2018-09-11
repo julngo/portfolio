@@ -2,3 +2,36 @@
     background-color: black;
     color: white;
 }
+
+#nav-bar{
+    flex: 25%;
+    min-width: 150px;
+    background-color: red;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#nav-bar ul{
+    list-style-type: none;
+}
+
+#nav-bar li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.vl{
+    border-left: 5px solid green;
+    height: 95vh;
+}
+
+.sendHelp-content{
+    flex: 75%;
+    min-width: 300px;
+    background-color: blue;
+    padding-left: 15px;
+}
+
+.project-content{
+    display: flex;
+}

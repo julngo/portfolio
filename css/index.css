@@ -26,7 +26,10 @@ a{
     background-color: white;
     width: 90%;
     height: 90vh;
+    min-width: 700px;
 }
+
+
 
 .terminal-title, .project-title{
     display: flex;
@@ -49,8 +52,6 @@ a{
     align-items: center;
     justify-content: flex-start;
     margin-left: 6px;
-    flex: 0 0 40%;
-    width: 20%;
 }
 
 .active div{
@@ -95,7 +96,7 @@ a{
 }
 
 .title, .project-name-fill{
-    flex: 0 0 20%;
+    text-align: center;
     width: 100%;
     color:black;
 }
