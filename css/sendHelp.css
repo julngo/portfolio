@@ -6,7 +6,6 @@
 #nav-bar{
     flex: 25%;
     min-width: 150px;
-    background-color: red;
     text-align: right;
     padding-right: 15px;
 }
@@ -22,16 +21,26 @@
 
 .vl{
     border-left: 5px solid green;
-    height: 90vh;
+    height: 80vh;
 }
 
 .sendHelp-content{
     flex: 75%;
     min-width: 300px;
-    background-color: blue;
     padding-left: 15px;
 }
 
 .project-content{
     display: flex;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column-3{
+    float: left;
+    width: 33.33%;
+    height: auto;
 }
