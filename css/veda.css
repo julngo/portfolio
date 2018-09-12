@@ -7,6 +7,8 @@ iframe{
     display: block;
     margin: 0 auto;
     width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #headerPic{
@@ -51,4 +53,10 @@ iframe{
 
 hr{
     border-color: #0091F7;
+}
+
+h3{
+    text-decoration: underline;
+}
+.veda-content img{
 }
