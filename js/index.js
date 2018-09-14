@@ -1,7 +1,7 @@
 var data ={
     "basic_info": {
     "name": "Julian Ngo",
-        "field": "UX Designer, Developer",
+        "field": "Developer, UX Designer",
         "email": "julngo@uw.edu",
         "linkedin": "<a href='https://www.linkedin.com/in/juliantngo/' rel='noopener noreferrer' target='_blank' class='blue-text'>https://www.linkedin.com/in/juliantngo</a>"
     },
@@ -19,13 +19,13 @@ var data ={
         "frameworks": "optional: ex. cakephp"
         },
         {
-        "name": "<a onclick='projectThree()' class='blue-text'>A Thing Called Stress</a>",
+        "name": "<a onclick='projectThree()' class='blue-text'>Tamatrashi</a>",
         "description": "what this project is about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"
         },
         {
-        "name": "<a onclick='projectFour()' class='blue-text'>Project 4</a>",
+        "name": "<a onclick='projectFour()' class='blue-text'>Anti-Establishment</a>",
         "description": "what this project is about in few sentences",
         "type": "app prototype? ux design? website?",
         "frameworks": "optional: ex. cakephp"

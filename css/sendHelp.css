@@ -3,6 +3,13 @@
     color: white;
 }
 
+.project-content{
+    padding-top: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 50px;
+}
+
 #nav-bar{
     flex: 25%;
     min-width: 150px;
@@ -14,9 +21,21 @@
     list-style-type: none;
 }
 
-#nav-bar li{
+#nav-bar ul li{
     list-style-type: none;
     margin: 10px;
+}
+
+#nav-bar ul li div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#nav-bar ul li div:hover{
+    background-color: white;
+    color: black;
 }
 
 .vl{
@@ -43,4 +62,26 @@
     float: left;
     width: 33.33%;
     height: auto;
+}
+.column-2{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.column-2 img{
+    width: 100%;
+    height: 100%;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }

@@ -5,13 +5,13 @@ function openWindow(){
 
 function projectFour(){
     openWindow();
-    $('head').append('<link class="zuluMenu" href="css/zuluMenu.css" rel="stylesheet">');
-    $('.project-view').addClass("zuluMenuBGC");
+    $('head').append('<link class="anti-est" href="css/anti-est.css" rel="stylesheet">');
+    $('.project-view').addClass("AEBGC");
     //zuluMenu Project
-    $('.project-name-fill').text("Zulus Board Game Cafe's Menu");
+    $('.project-name-fill').text("Anti-Establishment");
     setTimeout(function(){
         i=0;
         $('.project-content').html();
-        $('.zuluMenu-content').html();
+        $('.AE-content').html();
     },1000.5); 
 }

@@ -5,13 +5,13 @@ function openWindow(){
 
 function projectThree(){
     openWindow();
-    $('head').append('<link class="ATCS" href="css/ATCS.css" rel="stylesheet">');
-    $('.project-view').addClass("ATCSBGC");
+    $('head').append('<link class="tamatrashi" href="css/tamatrashi.css" rel="stylesheet">');
+    $('.project-view').addClass("tamatrashiBGC");
     //A thing Called stress Project
-    $('.project-name-fill').text("A Thing Called Stress");
+    $('.project-name-fill').text("Tamatrashi");
     setTimeout(function(){
         i=0;
         $('.project-content').html();
-        $('.ATCS-content').html();
+        $('.tamatrashi-content').html();
     },1000.5); 
 }
