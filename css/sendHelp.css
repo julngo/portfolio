@@ -1,24 +1,21 @@
 .sendHelpBGC{
-    background-color: black;
+    background-color: white;
     color: white;
 }
 
 .project-content{
-    padding-top: 50px;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 50px;
+    margin: 
 }
 
 #nav-bar{
-    flex: 25%;
-    min-width: 150px;
     text-align: right;
-    padding-right: 15px;
+    width: 255px;
+    
+    position: absolute;
+    background-color: #BDB76B;
 }
 
 #nav-bar ul{
-    list-style-type: none;
 }
 
 #nav-bar ul li{
@@ -38,19 +35,11 @@
     color: black;
 }
 
-.vl{
-    border-left: 5px solid green;
-    height: 80vh;
-}
 
 .sendHelp-content{
-    flex: 75%;
-    min-width: 300px;
-    padding-left: 15px;
-}
-
-.project-content{
-    display: flex;
+    background-color: white;
+    padding-left: 275px; 
+    color:black;
 }
 
 .row:after {
@@ -74,7 +63,7 @@
     height: 100%;
 }
 .button {
-    background-color: #4CAF50;
+    background-color: #5F9EA0;
     border: none;
     color: white;
     padding: 15px 32px;

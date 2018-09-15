@@ -126,7 +126,7 @@ function closeWindow(){
     $('.project-view').removeClass("sendHelpBGC");
     $('.veda').remove();
     $('.sendHelp').remove();
-    $('.ATCS').remove();
-    $('.zuluMenu').remove();
+    $('.tamatrashi').remove();
+    $('.anti-est').remove();
     
 }
