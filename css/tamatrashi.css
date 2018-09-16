@@ -4,12 +4,31 @@
 }
 
 #nav-bar{
-    
+    width: 100%;
+    position: absolute;
+}
+
+#nav-bar ul{
+}
+
+#nav-bar ul li{
+    display: inline-block;
+    float: left;
+    width: 20%;
+}
+
+#nav-bar ul li div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+}
+
+#nav-bar ul li div:hover{
+    background-color: white;
+    color: black;
 }
 
 .project-content{
-    padding-top: 50px;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 50px;
 }
