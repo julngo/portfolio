@@ -1,34 +1,72 @@
 .tamatrashiBGC{
-    background-color: black;
-    color: white;
+    background-color: pink;
+    color: black;
 }
 
 #nav-bar{
     width: 100%;
-    position: absolute;
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    background-color: black;
 }
-
-#nav-bar ul{
+#nav-bar a{
+    flex: 20%;
+    align-self: flex-end;
 }
-
-#nav-bar ul li{
-    display: inline-block;
-    float: left;
-    width: 20%;
-}
-
-#nav-bar ul li div{
+#nav-bar a div{
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 7px;
     padding-right: 7px;
     text-align: center;
+    font-size: 20px;
 }
 
-#nav-bar ul li div:hover{
+.header-img{
+    height: 100px;
+}
+
+#nav-bar div:hover{
     background-color: white;
     color: black;
 }
 
 .project-content{
+
+}
+.project-body{
+}
+.section{
+    height: 95vh;
+    padding-top: 100px;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+a{
+    color: white;
+}
+#img1{
+    width: 40%;
+    float: right;
+    padding: 5px;
+}
+p{
+    padding: 5px;
 }
