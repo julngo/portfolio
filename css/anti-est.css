@@ -1,7 +1,45 @@
-
+.AEBGC{
+    background-color: black;
+    color: white;
+}
+.nav-bar{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.left-side{
+    width: 35%;
+    height: 80vh;
+    background-color: blue;
+    float: left;
+}
+.right-side{
+    width: 65%;
+    height: 80vh;
+    background-color: red;
+    float: right;
+}
+.right-side div div{
+}
 .project-content{
-    padding-top: 50px;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.AE-content{
+    width: 100%;
+    position: absolute;
+}
+.return{
+    background-color: white;
+    position: absolute;
+    width: 0px;
+    height: 100px;
+    z-index: 0;
+}
+
+.option{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    margin: 15px;
 }
