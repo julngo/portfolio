@@ -3,9 +3,9 @@ function openWindow(){
     $('.proj-buttons').addClass("active");
 }
 
-var antiEstHeader = '<div class="nav-bar"><div onclick="openNav()" class="transform return"></div><div class="left-side transform"><div><h1></h1></div></div><div class="right-side transform"><div><div class="transform option" onclick="fillAEPageOne()"></div><div class="transform option" onclick="fillAEPageTwo()"></div><div class="transform option" onclick="fillAEPageThree()"></div><div class="transform option" onclick="fillAEPageFour()"></div></div></div><div class="AE-content" ></div>';
+var antiEstHeader = '<div class="nav-bar"><div onclick="openNav()" class="transform return"></div><div class="left-side transform"><div><h1>ANTI-ESTABLISHMENT PROJECT</h1></div></div><div class="right-side transform"><div><div class="transform option" onclick="fillAEPageOne()"></div><div class="transform option" onclick="fillAEPageTwo()"></div><div class="transform option" onclick="fillAEPageThree()"></div><div class="transform option" onclick="fillAEPageFour()"></div></div><h1>CLASSIFIED FILES</h1></div><div class="AE-content" ></div>';
 
-var AEPageOne = '<p>T-bone landjaeger ball tip, bresaola tri-tip spare ribs brisket kevin rump drumstick leberkas shoulder pork loin boudin. Shankle tongue leberkas, biltong strip steak filet mignon corned beef tail spare ribs. Corned beef capicola jowl doner, strip steak hamburger ribeye tail ground round ball tip beef. Leberkas frankfurter fatback andouille, bresaola ribeye strip steak pastrami tri-tip capicola kevin sirloin ham. Bresaola jerky picanha ham shoulder, pork belly cupim jowl filet mignon chuck strip steak.</p>'; 
+var AEPageOne = '<p>What is this game? What was the point?</p><p>Anti-Establishment was a class project where we were to design an alternate reality game that covers the social justice problem of environmental impact.</p> <p>Links to the important website</p> <p>http://anti-establishment.dx.am/</p><p>Dates and role</p> <p>March \– June 2018</p><p>My role was website designer and developer as well as prop design and creation</p>'; 
 
 var AEPageTwo = '<p>Strip steak venison doner leberkas. Corned beef brisket pork belly andouille, t-bone turducken jowl pork loin pastrami. Venison tongue cupim rump ham hock drumstick turducken pork loin. Flank burgdoggen corned beef, shoulder tongue chuck porchetta tail pancetta chicken. Short ribs sausage ground round, shoulder pork belly meatloaf capicola. Turducken doner andouille, beef landjaeger ham hock pork loin kevin tail jerky pork belly chuck brisket. Jowl burgdoggen tongue, landjaeger brisket ball tip alcatra short loin drumstick leberkas.</p>';
 
@@ -51,14 +51,16 @@ function closeNav(){
     $('.option').css("width", "0px");
     $('.return').css("width", "50px");
     $('.AE-content').css("width", "90%");
+    $('h1').css("visibility", "hidden");
 }
 
 function openNav(){
     $('.AE-content').remove();
     $('.project-content').append("<div class='AE-content' ></div>");
-    $('.left-side').css("width", "35%");
-    $('.right-side').css("width", "65%");
+    $('.left-side').css("width", "30%");
+    $('.right-side').css("width", "70%");
     $('.option').css("width", "100px");
     $('.return').css("width", "0px");
     $('.AE-content').css("width", "0%");
+    $('h1').css("visibility", "visible");
 }
