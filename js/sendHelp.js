@@ -11,17 +11,25 @@ var sendHelpPageTwo = '<h2>Web UI:</h2> <div class="row"> <div class="column-2">
 
 var sendHelpPageThree = '<p>Prosciutto frankfurter swine, pastrami sirloin bresaola pork belly drumstick kielbasa. Bresaola fatback hamburger short loin jowl chuck tail andouille. Kevin ham brisket, cow swine turducken kielbasa ribeye alcatra jerky. Rump spare ribs tongue turkey ball tip. Filet mignon capicola pork, buffalo brisket picanha pork chop boudin ribeye pancetta short ribs spare ribs fatback meatball. Turducken filet mignon pork belly ham kevin, boudin beef pork chop prosciutto beef ribs landjaeger venison shoulder.</p><a class="button" href="https://students.washington.edu/julngo/wordpress/" rel="noopener noreferrer" target="_blank">To Website Portfolio</a>';
 
+var SHUC = '<div class="UnderCon"><div class="UC-pic"><img src="images/UnderConstruction.png"></div><div class="UC-desc"><p>This part of the site is still</p><h1>UNDER CONSTRUCTION</h1><p>Please check back on this later</p></div><div class="btn1"><button onclick="applyHeaderSH()">Keep going</button></div></div>';
+
 function projectTwo(){
     openWindow();
-    $('head').append('<link class="sendHelp" href="css/sendHelp.css" rel="stylesheet">');
     $('.project-view').addClass("sendHelpBGC");
     //SendHelp Project
     $('.project-name-fill').text("Send Help");
     setTimeout(function(){
         i=0;
-        $('.project-content').html(sendHelpPageHeader);
-        $('.sendHelp-content').html(sendHelpPageOne);
+        $('.project-content').html(SHUC);
     },1000.5); 
+}
+
+function applyHeaderSH(){
+    $('head').append('<link class="sendHelp" href="css/sendHelp.css" rel="stylesheet">');
+    $('.UnderCon').remove();
+    $('.project-content').html(sendHelpPageHeader);
+        $('.sendHelp-content').html(sendHelpPageOne);
+    
 }
 
 function removeSendHelpContent(){

@@ -13,17 +13,24 @@ var AEPageThree = '<p>Jowl burgdoggen porchetta brisket, shoulder meatball pance
 
 var AEPageFour = '<p></p>Pork chop pancetta sirloin brisket pastrami leberkas filet mignon. Pork belly bresaola sausage capicola picanha tenderloin andouille. Turducken biltong tail, cupim kielbasa pastrami pancetta tongue landjaeger beef pig andouille prosciutto spare ribs swine. Buffalo tongue bacon, turducken prosciutto pancetta biltong fatback tail porchetta bresaola kevin pork chop. Boudin ribeye corned beef ball tip strip steak biltong swine tail beef sausage hamburger doner pancetta kevin. Spare ribs turkey ground round jerky shank, turducken boudin pork chop sausage sirloin short loin cupim pork belly.';
 
+var AEUC = '<div class="UnderCon"><div class="UC-pic"><img src="images/UnderConstruction.png"></div><div class="UC-desc"><p>This part of the site is still</p><h1>UNDER CONSTRUCTION</h1><p>Please check back on this later</p></div><div class="btn1"><button onclick="applyHeaderSH()">Keep going</button></div></div>';
+
 function projectFour(){
     openWindow();
-    $('head').append('<link class="anti-est" href="css/anti-est.css" rel="stylesheet">');
     $('.project-view').addClass("AEBGC");
-    //zuluMenu Project
+    //anti-est project
     $('.project-name-fill').text("Anti-Establishment");
     setTimeout(function(){
         i=0;
-        $('.project-content').html(antiEstHeader);
+        $('.project-content').html(AEUC);
     },1000.5); 
 }
+function applyHeaderAE(){
+    $('head').append('<link class="anti-est" href="css/anti-est.css" rel="stylesheet">');
+    $('.UnderCon').remove();
+    $('.project-content').html(antiEstHeader);
+}
+
 
 function fillAEPageOne(){
     $('.AE-content').html(AEPageOne);

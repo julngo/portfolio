@@ -2,33 +2,35 @@ var data ={
     "basic_info": {
     "name": "Julian Ngo",
         "field": "Developer, UX Designer",
-        "email": "julngo@uw.edu",
-        "linkedin": "<a href='https://www.linkedin.com/in/juliantngo/' rel='noopener noreferrer' target='_blank' class='blue-text'>https://www.linkedin.com/in/juliantngo</a>"
+        "email": "jultngo@gmail.com",
+        "linkedin": "<a href='https://www.linkedin.com/in/juliantngo/' rel='noopener noreferrer' target='_blank' class='blue-text'>https://www.linkedin.com/in/juliantngo</a>",
+        "more_info": ""
     },
     "projects":[
         {
         "name": "<a onclick='projectOne()' class='blue-text'>VEDA AI</a>",
-        "description": "what this project is about in few sentences",
-        "type": "app prototype? ux design? website?",
-        "frameworks": "optional: ex. cakephp"
-        },
-        {
-        "name": "<a onclick='projectTwo()' class='blue-text'>Send Help</a>",
-        "description": "what this project is about in few sentences",
-        "type": "app prototype? ux design? website?",
-        "frameworks": "optional: ex. cakephp"
+        "description": "Product design idea for the elderly in a near future setting.",
+        "type": "App prototype, UX design, Hi/Lo-fidelity prototyping",
+        "role": "Group Manager, Lead App Dev, UX Designer"
         },
         {
         "name": "<a onclick='projectThree()' class='blue-text'>Tamatrashi</a>",
-        "description": "what this project is about in few sentences",
-        "type": "app prototype? ux design? website?",
-        "frameworks": "optional: ex. cakephp"
+        "description": "Tomogatchi-inspired game designed around the philosophical idea of absurdism.",
+        "type": "Game prototype, Graphic Design",
+        "role": "Lead Game Dev, Graphic Designer"
+        },
+        {
+        "name": "<a onclick='projectTwo()' class='blue-text'>Send Help</a>",
+        "description": "Website design and idea catered towards low income and minority students looking for higher education.",
+        "type": "Full Stack Development",
+        "role": "Group Manager, Lead App Dev, UX Designer",
+        "frameworks": "cakephp"
         },
         {
         "name": "<a onclick='projectFour()' class='blue-text'>Anti-Establishment</a>",
-        "description": "what this project is about in few sentences",
-        "type": "app prototype? ux design? website?",
-        "frameworks": "optional: ex. cakephp"
+        "description": "Alternate reality game where the University of Washington Bothell campus was the board. Players take the role of an investigator.",
+        "type": "Alternate Reality Game",
+        "role": "Web Designer, Web Developer, UX Designer, Prop Designer"
         }
     ]
 }
