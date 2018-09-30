@@ -3,7 +3,7 @@ function openWindow(){
     $('.proj-buttons').addClass("active");
 }
 
-var antiEstHeader = '<div class="nav-bar"><div onclick="openNav()" class="transform return"></div><div class="left-side transform"><div><h1>ANTI-ESTABLISHMENT PROJECT</h1></div></div><div class="right-side transform"><div><div class="transform option" onclick="fillAEPageOne()"></div><div class="transform option" onclick="fillAEPageTwo()"></div><div class="transform option" onclick="fillAEPageThree()"></div><div class="transform option" onclick="fillAEPageFour()"></div></div><h1>CLASSIFIED FILES</h1></div><div class="AE-content" ></div>';
+var antiEstHeader = '<div class="nav-bar"><div onclick="openNav()" class="transform return"></div><div class="left-side transform"><div class="title-1"><h1>ANTI-ESTABLISHMENT PROJECT</h1></div></div><div class="right-side transform"><div class="button-div"><div class="transform option" onclick="fillAEPageOne()"></div><div class="transform option" onclick="fillAEPageTwo()"></div><div class="transform option" onclick="fillAEPageThree()"></div><div class="transform option" onclick="fillAEPageFour()"></div></div><div class="title-2"><h1>CLASSIFIED FILES</h1></div></div><div class="AE-content" ></div>';
 
 var AEPageOne = '<p>What is this game? What was the point?</p><p>Anti-Establishment was a class project where we were to design an alternate reality game that covers the social justice problem of environmental impact.</p> <p>Links to the important website</p> <p>http://anti-establishment.dx.am/</p><p>Dates and role</p> <p>March \– June 2018</p><p>My role was website designer and developer as well as prop design and creation</p>'; 
 
