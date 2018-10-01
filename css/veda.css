@@ -67,3 +67,19 @@ h3{
     padding-right: 15%;
     padding-bottom: 50px;
 }
+.cont2 img{
+    float: left;
+    margin-right: 10px;
+}
+.border{
+    box-shadow: 2px 2px 2px 2px black;
+}
+#StoryBoard{
+    width: 100%;
+}
+#Screenshot{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
