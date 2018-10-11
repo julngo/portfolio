@@ -10,36 +10,39 @@
 #nav-bar{
     text-align: right;
     width: 255px;
-    
     position: absolute;
     background-color: #BDB76B;
 }
 
-#nav-bar ul{
+#nav-head h1{
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
-#nav-bar ul li{
-    list-style-type: none;
+h2{
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#nav-items{
+    margin-bottom: 20px;
+}
+
+#nav-items div{
+    width: 150px;
     margin: 10px;
+    
 }
-
-#nav-bar ul li div{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-}
-
-#nav-bar ul li div:hover{
-    background-color: white;
-    color: black;
-}
-
-
 .sendHelp-content{
+    padding: 0;
+    margin: 0;
     background-color: white;
     padding-left: 275px; 
+    width: auto;
     color:black;
+    padding-right: 20px;
 }
 
 .row:after {
