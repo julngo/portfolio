@@ -95,7 +95,8 @@ p a{
     display: flex;
     align-items: center;
     justify-content: center;
-    display: inline-flex
+    display: inline-flex;
+    text-align: center;
 }
 .butn:hover{
     background-color: #F76B89;
