@@ -58,8 +58,6 @@ hr{
 h3{
     text-decoration: underline;
 }
-.veda-content img{
-}
 
 .project-content{
     padding-top: 25px;
@@ -82,4 +80,7 @@ h3{
     float: left;
     margin-right: 10px;
     margin-bottom: 25px;
+}
+.veda-content img{
+    margin: 15px;
 }

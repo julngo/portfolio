@@ -3,7 +3,7 @@ var data ={
     "name": "Julian Ngo",
         "field": "Developer, UX Designer",
         "email": "jultngo@gmail.com",
-        "linkedin": "<a href='https://www.linkedin.com/in/juliantngo/' rel='noopener noreferrer' target='_blank' class='blue-text'>https://www.linkedin.com/in/juliantngo</a>"
+        "linkedin": "<a href='https://www.linkedin.com/in/juliantngo/' rel='noopener noreferrer' target='_blank' class='blue-text'></a>"
     },
     "projects":[
         {
@@ -27,7 +27,7 @@ var data ={
         },
         {
         "name": "<a onclick='projectFour()' class='blue-text'>Anti-Establishment</a>",
-        "description": "Alternate reality game where the University of Washington Bothell campus was the board. Players take the role of an investigator.",
+        "description": "Alternate reality game where the University of Washington Bothell campus was the board.",
         "type": "Alternate Reality Game",
         "role": "Web Designer, Web Developer, UX Designer, Prop Designer"
         }
@@ -49,9 +49,9 @@ function type(str) {
     return false;
   }
     var ran = 0;
-  //var ran = Math.floor(Math.random() * 150) + 75;
+    //var ran = Math.floor(Math.random() * 150) + 75;
     //this gives a random delay between each character so it's more realistic
-  //set ran to a fixed number if you want consistent speed.
+    //set ran to a fixed number if you want consistent speed.
   setTimeout(function(){
     type(str);
   }, ran)
