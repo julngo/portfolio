@@ -65,7 +65,8 @@ a{
 #img1{
     width: 40%;
     float: right;
-    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
 }
 p{
     padding: 5px;
@@ -81,11 +82,13 @@ p a{
     float: left;
     width: 150px;
     margin: 10px;
+    border: 1px solid black;
 }
 #papers_please{
     float: right;
     width: 200px;
     margin: 10px;
+    border: 1px solid black;
 }
 .butn{
     width: 200px;
@@ -103,4 +106,7 @@ p a{
 }
 a{
     text-decoration: none !important;
+}
+#tamatrashi-content img{
+    
 }
