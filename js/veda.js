@@ -20,7 +20,7 @@ function openVeda(){
 
 function fillHeaderVeda(){
     $('#headerPic').attr("src", "images/VedaAI_Logo.png");
-    $('.navbar').html('<div><p>App & Prototypes</p></div><div><p>Concepting</p></div><div><p>Research</p></div><div><p>Intro</p></div>');
+    $('.navbar').html('<hr><div><p>App & Prototypes</p></div><div><p>Concepting</p></div><div><p>Research</p></div><div><p>Intro</p></div>');
     
 }
 
