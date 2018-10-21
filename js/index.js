@@ -7,26 +7,26 @@ var data ={
     },
     "projects":[
         {
-        "name": "<a onclick='projectOne()' class='blue-text'>VEDA AI</a>",
+        "name": "<a onclick='openVeda()' class='blue-text'>VEDA AI</a>",
         "description": "Product design idea for the elderly in a near future setting.",
         "type": "App prototype, UX design, Hi/Lo-fidelity prototyping",
         "role": "Group Manager, Lead App Dev, UX Designer"
         },
         {
-        "name": "<a onclick='projectThree()' class='blue-text'>Tamatrashi</a>",
+        "name": "<a onclick='openWindow()' class='blue-text'>Tamatrashi</a>",
         "description": "Tomogatchi-inspired game designed around the philosophical idea of absurdism.",
         "type": "Game prototype, Graphic Design",
         "role": "Lead Game Dev, Graphic Designer"
         },
         {
-        "name": "<a onclick='projectTwo()' class='blue-text'>Send Help</a>",
+        "name": "<a onclick='openWindow()' class='blue-text'>Send Help</a>",
         "description": "Website design and idea catered towards low income and minority students looking for higher education.",
         "type": "Full Stack Development",
         "role": "Group Manager, Lead App Dev, UX Designer",
         "frameworks": "cakephp"
         },
         {
-        "name": "<a onclick='projectFour()' class='blue-text'>Anti-Establishment</a>",
+        "name": "<a onclick='openWindow()' class='blue-text'>Anti-Establishment</a>",
         "description": "Alternate reality game where the University of Washington Bothell campus was the board.",
         "type": "Alternate Reality Game",
         "role": "Web Designer, Web Developer, UX Designer, Prop Designer"
@@ -49,9 +49,6 @@ function type(str) {
     return false;
   }
     var ran = 0;
-    //var ran = Math.floor(Math.random() * 150) + 75;
-    //this gives a random delay between each character so it's more realistic
-    //set ran to a fixed number if you want consistent speed.
   setTimeout(function(){
     type(str);
   }, ran)
@@ -118,16 +115,25 @@ $('.proj-buttons div').hover(
 );
 
 function closeWindow(){
+    cleanProjContent();
     $('.proj-buttons div img').remove();
     $('.project-name-fill').empty();
     $('.project-content').empty();
     $('.project-view').removeClass("transform-active");
     $('.proj-buttons').removeClass("active");
-    $('.project-view').removeClass("vedaBGC");
-    $('.project-view').removeClass("sendHelpBGC");
     $('.veda').remove();
     $('.sendHelp').remove();
     $('.tamatrashi').remove();
     $('.anti-est').remove();
     
+}
+
+function cleanProjContent(){
+    $('#headerPic').attr("src", "");
+    $('.navbar').empty();
+}
+
+function openWindow(){
+    $('.project-view').addClass("transform-active");
+    $('.proj-buttons').addClass("active");
 }

@@ -11,46 +11,6 @@ iframe{
     padding-bottom: 40px;
 }
 
-#headerPic{
-    width: 100%;
-}
-
-#nav-bar{
-    width: 100%;
-}
-
-#nav-bar ul{
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    overflow: hidden;
-}
-
-#nav-bar ul li{
-    display: inline-block;
-    float: right;
-}
-
-#nav-bar ul li div{
-    margin-top: 73px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-}
-
-#nav-bar ul li div:hover{
-    display: inline-block;
-    background-color: #B4DFFE;
-    color: #0075D9;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    transition: all .5s ease;
-}
-
 hr{
     border-color: #0091F7;
 }
