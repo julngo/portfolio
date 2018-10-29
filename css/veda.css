@@ -11,20 +11,10 @@ iframe{
     padding-bottom: 40px;
 }
 
-hr{
-    border-color: #0091F7;
-}
-
 h3{
     text-decoration: underline;
 }
 
-.project-content{
-    padding-top: 25px;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 50px;
-}
 .cont2 img{
     float: left;
     margin-right: 10px;
