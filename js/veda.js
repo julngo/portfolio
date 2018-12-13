@@ -3,8 +3,6 @@ function openWindow(){
     $('.proj-buttons').addClass("active");
 }
 
-
-
 var i = 0;
 function openVeda(){
     openWindow();

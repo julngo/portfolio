@@ -1,0 +1,49 @@
+.active-state-1{
+    width: 750px;
+    height: 450px;
+    margin-top: 0%;
+}
+
+.preference-title{
+    display: flex;
+    align-items: center;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px; 
+    height: 40px;
+    min-height: 25px;
+    background: #f4f4f4;
+    background: -moz-linear-gradient(top, #f4f4f4 0%, #ffffff 52%, #ededed 100%);
+    background: -webkit-linear-gradient(top, #f4f4f4 0%,#ffffff 52%,#ededed 100%);
+    background: linear-gradient(to bottom, #f4f4f4 0%,#ffffff 52%,#ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ededed',GradientType=0 );
+}
+.preference-name{
+    margin: auto;
+}
+.tabs{
+    border-radius: 25px 25px 25px 25px;
+    display: inline-flex;
+}
+
+.tabs div{
+    background-color: lightgray;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.tabs div:hover{
+    cursor: pointer;
+}
+
+#firstTab{
+    border-radius: 25px 0px 0px 25px;
+}
+
+#lastTab{
+    border-radius: 0px 25px 25px 0px;
+}
+
+.tabs .selected{
+    background-color: darkgray;
+}

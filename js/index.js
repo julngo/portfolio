@@ -3,7 +3,8 @@ var data ={
     "name": "Julian Ngo",
         "field": "Developer, UX Designer",
         "email": "jultngo@gmail.com",
-        "linkedin": "<a href='https://www.linkedin.com/in/juliantngo/' rel='noopener noreferrer' target='_blank' class='blue-text'>https://www.linkedin.com/in/juliantngo</a>"
+        "linkedin": "<a href='https://www.linkedin.com/in/juliantngo/' rel='noopener noreferrer' target='_blank' class='blue-text'>https://www.linkedin.com/in/juliantngo</a>",
+        "more info": "<a onclick='openAboutMe()' class='blue-text'>About Me</a>"
     },
     "projects":[
         {

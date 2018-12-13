@@ -47,7 +47,7 @@ a{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ededed',GradientType=0 );
 }
 
-.term-buttons, .proj-buttons{
+.term-buttons, .proj-buttons, .preference-buttons{
     display: inline-flex;
     height: 100%;
     align-items: center;
@@ -71,6 +71,9 @@ a{
 }
 .green{
     background-color: LIGHTGREEN;
+}
+.grey{
+    background-color: lightgrey;
 }
 .blue-text{
     color: blue;
@@ -114,7 +117,7 @@ a{
     color: black;
 }
 
-.project-view{
+.project-view, .preference-window{
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -webkit-box-shadow: 0px 3px 33px 0px rgba(0,0,0,0.4);
