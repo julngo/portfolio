@@ -76,3 +76,40 @@ header{
     font-size: 15px;
     margin: 0px;
 }
+
+#game-screen{
+    align-content: center;
+}
+
+#counter{
+    margin-top: 50px;
+    padding: auto;
+    text-align: center;
+    font-size: 50px;
+}
+#encapsulate{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+#upgradeTab{
+    background-color: red;
+    width: 250px;
+    height: 25px;
+    margin: auto;
+    display: flex;
+}
+#upgrades{
+    width: 75%;
+    background-color: black;
+    margin: auto;
+    height: 200px;
+    align-content: center;
+    visibility: visible;
+}
+
+.buttonHolder{
+    text-align: center;
+}
