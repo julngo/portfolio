@@ -105,7 +105,7 @@ header{
     width: 75%;
     background-color: black;
     margin: auto;
-    height: 200px;
+    height: 0px;
     align-content: center;
     visibility: visible;
 }
@@ -113,3 +113,36 @@ header{
 .buttonHolder{
     text-align: center;
 }
+
+.empty-bar{
+    height: 25px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: darkgrey;
+}
+
+.fill-80{
+    height: 25px;
+    width: 0px;
+    background-color: red;
+    border-radius: 5px 0px 0px 5px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#skills{
+    width: 100%;
+}
+
+#skills table{
+    width: 100%;
+}
+
+#skills table tr{
+    width: 100%;
+}
+

@@ -63,6 +63,10 @@ function openTab3(){
     reset();
     $('#tab3').addClass('selected');
     $('.preference-body').html(tab3Content);
+    setTimeout(function(){
+        $('.fill-80').css("width","400px");
+    },500);
+    
 }
 
 function openTab4(){
@@ -82,7 +86,7 @@ var firstTabContent = "<div id='overview'><img src='images/julian-border.png'><h
 
 var tab2Content = "";
 
-var tab3Content = "";
+var tab3Content = "<div id='skills'> <table> <tr> <td></td>  <td>Coding</div><div class='empty-bar'><div class='fill-80' id='coding-bar'></div></td> </tr>  <tr> <td></td>  <td>Design</div><div class='empty-bar'><div class='fill-80'></div></td> </tr>  <tr> <td></td>  <td>Other Skills</div><div class='empty-bar'><div class='fill-80'></div></td> </tr></table> </div>";
 
 var tab4Content = '<div class="buttonHolder"> <input value="Search" title="Search" type="submit" id="btn_s"> <input value="I\'m Feeling Lucky" title="I\'m Feeling Lucky" name="lucky" type="submit" id="btn_i"> </div>';
 
@@ -151,15 +155,15 @@ function changeState3(){
 }
 
 function openOrCloseUpgradeTab(){
-    if(upgradeTabOpened == false){
+    if(upgradeTabOpened == true){
         //change css element
         $('#upgrades').css("height", "0");
         $('#upgrades').css("visibility", "hidden");
-        upgradeTabOpened = true;
+        upgradeTabOpened = false;
     }else{
         //revert changes
         $('#upgrades').css("height", "200");
         $('#upgrades').css("visibility", "visible");
-        upgradeTabOpened = false;
+        upgradeTabOpened = true;
     }
 }

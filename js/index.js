@@ -1,7 +1,7 @@
 var data ={
     "basic_info": {
     "name": "Julian Ngo",
-        "field": "Developer, UX Designer",
+        "field": "Developer, UX Designer, Project Manager",
         "email": "jultngo@gmail.com",
         "linkedin": "<a href='https://www.linkedin.com/in/juliantngo/' rel='noopener noreferrer' target='_blank' class='blue-text'>https://www.linkedin.com/in/juliantngo</a>",
         "more info": "<a onclick='openAboutMe()' class='blue-text'>About Me</a>"
@@ -37,11 +37,15 @@ var data ={
 
 var begStr = "vi julian.json \n";
 var string = JSON.stringify(data, undefined, 2);
+var typing = '';
 
-var typing = ' ';
 var i = 0; 
 //I STOLE THIS FROM SU
 function type(str) {
+    if(endFunc == true){
+        instantSetup();
+        return;
+    }
   if(i < str.length){
     typing = typing+str.charAt(i);
     $('#textHere').text(typing+'_');
@@ -57,6 +61,10 @@ function type(str) {
 };
 
 function typeHTML(str) {
+    if(endFunc == true){
+        instantSetup();
+        return;
+    }
   if(i < str.length){
     typing = typing+str.charAt(i);
     $('#textHere').html(typing+'_');
@@ -71,6 +79,12 @@ function typeHTML(str) {
   i++;
 };
 
+var endFunc = false;
+
+$(document).click(function(){
+    endFunc = true;
+})
+
 $(document).ready(function(){
     setTimeout(function(){
         i = 0;
@@ -79,15 +93,19 @@ $(document).ready(function(){
     setTimeout(function(){
         i=0;
         typeHTML(string);
-    },2500); 
+    },2000); 
 })
+function instantSetup(){
+    $('#textHere').empty();
+    $('#textHere').html(begStr + string);
+};
 
 function leaveWebsite(){
     if(confirm("Do you want to leave?") == true){
         //window.history.back();
         close();
     }
-}
+};
 
 $('.term-buttons div').hover(
     //onhover
