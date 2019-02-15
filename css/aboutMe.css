@@ -121,6 +121,19 @@ header{
     background-color: darkgrey;
 }
 
+.fill-50{
+    height: 25px;
+    width: 0px;
+    background-color: red;
+    border-radius: 5px 0px 0px 5px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
 .fill-80{
     height: 25px;
     width: 0px;

@@ -64,6 +64,7 @@ function openTab3(){
     $('#tab3').addClass('selected');
     $('.preference-body').html(tab3Content);
     setTimeout(function(){
+        $('.fill-50').css("width","250px");
         $('.fill-80').css("width","400px");
     },500);
     
