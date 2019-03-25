@@ -37,6 +37,7 @@ var data ={
 
 var begStr = "vi julian.json \n";
 var string = JSON.stringify(data, undefined, 2);
+var underConstruction = true;
 var typing = '';
 
 var i = 0; 
@@ -92,7 +93,12 @@ $(document).ready(function(){
     },1000);
     setTimeout(function(){
         i=0;
-        typeHTML(string);
+        if(underConstruction == false){
+           typeHTML(string);
+        }else {
+           typeHTML("Website is still under construction! Thank you for your patience!")
+        }
+        
     },2000); 
 })
 function instantSetup(){
