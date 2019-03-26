@@ -17,17 +17,17 @@ var data ={
         "More to come!"
     ]
 }
-var moreData = {
-    [
-        {
-        "name": "<a onclick='openWindow()' class='blue-text'>Anti-Establishment</a>",
-        "description": "Alternate reality game where the University of Washington Bothell campus was the board.",
-        "type": "Alternate Reality Game",
-        "role": "Web Designer, Web Developer, UX Designer, Prop Designer",
-        "date": "Apr 2018 - Jun 2018"
-        },
-    ]
-}
+//var moreData = {
+//    [
+//        {
+//        "name": "<a onclick='openWindow()' class='blue-text'>Anti-Establishment</a>",
+//        "description": "Alternate reality game where the University of Washington Bothell campus was the board.",
+//        "type": "Alternate Reality Game",
+//        "role": "Web Designer, Web Developer, UX Designer, Prop Designer",
+//        "date": "Apr 2018 - Jun 2018"
+//        },
+//    ]
+//}
 
 
 var begStr = "vi julian.json \n";
