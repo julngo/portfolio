@@ -8,36 +8,26 @@ var data ={
     },
     "projects":[
         {
-        "name": "<a onclick='openVeda()' class='blue-text'>VEDA AI</a>",
-        "description": "Product design idea for the elderly in a near future setting.",
-        "type": "App prototype, UX design, Hi/Lo-fidelity prototyping",
-        "role": "Group Manager, Lead App Dev, UX Designer"
-        },
-        {
-        "name": "<a onclick='openWindow()' class='blue-text'>Tamatrashi</a>",
-        "description": "Tomogatchi-inspired game designed around the philosophical idea of absurdism.",
-        "type": "Game prototype, Graphic Design",
-        "role": "Lead Game Dev, Graphic Designer"
-        },
-        {
-        "name": "<a onclick='openWindow()' class='blue-text'>Send Help</a>",
-        "description": "Website design and idea catered towards low income and minority students looking for higher education.",
-        "type": "Full Stack Development",
-        "role": "Group Manager, Lead App Dev, UX Designer",
-        "frameworks": "cakephp"
-        },
-        {
         "name": "<a onclick='openWindow()' class='blue-text'>Anti-Establishment</a>",
         "description": "Alternate reality game where the University of Washington Bothell campus was the board.",
         "type": "Alternate Reality Game",
-        "role": "Web Designer, Web Developer, UX Designer, Prop Designer"
-        }
+        "role": "Web Designer, Web Developer, UX Designer, Prop Designer",
+        "date": "Apr 2018 - Jun 2018"
+        },
+        {
+        "name": "<a onclick='openVeda()' class='blue-text'>VEDA AI</a>",
+        "description": "Product design idea for the elderly in a near future setting.",
+        "type": "App prototype, UX design, Hi/Lo-fidelity prototyping",
+        "role": "Group Manager, Lead App Dev, UX Designer",
+        "date": "Jan 2018 - March 2018"
+        },
+        "More to come!"
     ]
 }
 
 var begStr = "vi julian.json \n";
 var string = JSON.stringify(data, undefined, 2);
-var underConstruction = true;
+var underConstruction = false;
 var typing = '';
 
 var i = 0; 
