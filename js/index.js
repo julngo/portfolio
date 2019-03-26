@@ -8,26 +8,22 @@ var data ={
     },
     "projects":[
         {
+        "name": "<a onclick='openAE()' class='blue-text'>Anti-Establishment</a>",
+        "description": "Alternate reality game where the University of Washington Bothell campus was the board.",
+        "type": "Alternate Reality Game",
+        "role": "Web Designer, Web Developer, UX Designer, Prop Designer",
+        "date": "Apr 2018 - Jun 2018"
+        },
+        {
         "name": "<a onclick='openVeda()' class='blue-text'>VEDA AI</a>",
         "description": "Product design idea for the elderly in a near future setting.",
         "type": "App prototype, UX design, Hi/Lo-fidelity prototyping",
         "role": "Group Manager, Lead App Dev, UX Designer",
-        "date": "Jan 2018 - March 2018"
+        "date": "Jan 2018 - Mar 2018"
         },
         "More to come!"
     ]
 }
-//var moreData = {
-//    [
-//        {
-//        "name": "<a onclick='openWindow()' class='blue-text'>Anti-Establishment</a>",
-//        "description": "Alternate reality game where the University of Washington Bothell campus was the board.",
-//        "type": "Alternate Reality Game",
-//        "role": "Web Designer, Web Developer, UX Designer, Prop Designer",
-//        "date": "Apr 2018 - Jun 2018"
-//        },
-//    ]
-//}
 
 
 var begStr = "vi julian.json \n";
@@ -142,9 +138,7 @@ function closeWindow(){
     $('.project-view').removeClass("transform-active");
     $('.proj-buttons').removeClass("active");
     $('.veda').remove();
-    $('.sendHelp').remove();
-    $('.tamatrashi').remove();
-    $('.anti-est').remove();
+    $('.anti-establishment').remove();
     
 }
 
