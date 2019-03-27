@@ -83,7 +83,7 @@ function openLastTab(){
     updateCounter();
 }
 
-var firstTabContent = "<div id='overview'><img src='images/Julian.jpg'><header><b>Julian</b>Ngo</header><p id='ver'><b>Version</b> 21.5</p> <br> </p><p>I strive to dedicate myself to go above and beyond for any and all tasks that come my way, whether it be in an individual setting or a team-based. I understand that design and management are fluid work systems that requires constant evolution and adaptability to ensure that each project and work environment is as productive as possible.</p> <br><br> <a href='docs/Ngo_Resume_0325.pdf' rel='noopener noreferrer' target='_blank' class='myButton'>Resume<a> <a href='mailto:jultngo@gmail.com' class='myButton'>E-mail Me!<a></div>";
+var firstTabContent = "<div id='overview'><img src='images/Julian1.jpg'><header><b>Julian</b>Ngo</header><p id='ver'><b>Version</b> 21.5</p> <br> </p><p>I strive to dedicate myself to go above and beyond for any and all tasks that come my way, whether it be in an individual setting or a team-based. I understand that design and management are fluid work systems that requires constant evolution and adaptability to ensure that each project and work environment is as productive as possible.</p> <br><br> <a href='docs/Ngo_Resume_0325.pdf' rel='noopener noreferrer' target='_blank' class='myButton'>Resume<a> <a href='mailto:jultngo@gmail.com' class='myButton'>E-mail Me!<a></div>";
 
 var tab2Content = "<embed src= 'MyHome.pdf' width= '500' height= '375'>";
 
