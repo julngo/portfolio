@@ -17,7 +17,7 @@ function openAE(){
 }
 
 function fillHeaderAE(){
-    $('.navbar').html('<img id="headerPic" src="images/AELogo_T.png"> <hr> <div class="items"><p>Project Management, Website Design & Development</p><p>//</p><p>Mar 2018 - May 2018</p></div>');
+    $('.navbar').html('<img id="headerPic" src="images/AELogo_T.png"> <hr> <div class="items"><p>Project Manager, Website Design & Development</p><p>//</p><p>Mar 2018 - May 2018</p></div>');
     
 }
 

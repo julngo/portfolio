@@ -1,7 +1,7 @@
 var data ={
     "basic_info": {
     "name": "Julian Ngo",
-        "field": "Developer, UX Designer, Project Manager",
+        "field": "Technical Project Manager, Developer, UX Designer",
         "email": "jultngo@gmail.com",
         "linkedin": "<a href='https://www.linkedin.com/in/juliantngo/' rel='noopener noreferrer' target='_blank' class='blue-text'>https://www.linkedin.com/in/juliantngo</a>",
         "more info": "<a onclick='openAboutMe()' class='blue-text'>About Me</a>"
@@ -11,7 +11,7 @@ var data ={
         "name": "<a onclick='openAE()' class='blue-text'>Anti-Establishment</a>",
         "description": "Alternate reality game where the University of Washington Bothell campus was the board.",
         "type": "Alternate Reality Game",
-        "role": "Web Designer, Web Developer, UX Designer, Prop Designer",
+        "role": "Project Manager, Website Design & Development, UX Designer, Prop Designer",
         "date": "Apr 2018 - Jun 2018"
         },
         {

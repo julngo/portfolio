@@ -32,12 +32,12 @@ function openAboutMe(){
         openAMWindow();
         $('head').append('<link class="aboutMe" href="css/aboutMe.css" rel="stylesheet">');
     
-        $('.preference-name').append('<div class="tabs"> <div onclick="openFirstTab()" class="selected" id="firstTab">Overview</div> <div onclick="openTab2()" id="tab2">Resumè</div> <div onclick="openTab3()" id="tab3">Skills</div> <div onclick="openTab4()" id="tab4">Contact</div> <div onclick="openLastTab()"id="lastTab">Game</div> </div>');
+        $('.preference-name').append("About Me");
         openFirstTab();
         opened = true;
     }
 }
-
+//'<div class="tabs"> <div onclick="openFirstTab()" class="selected" id="firstTab">Overview</div> <div onclick="openTab2()" id="tab2">Resumè</div> <div onclick="openTab3()" id="tab3">Skills</div> <div onclick="openTab4()" id="tab4">Contact</div> <div onclick="openLastTab()"id="lastTab">Game</div> </div>'
 function reset(){
     $('#firstTab').removeClass('selected');
     $('#tab2').removeClass('selected');
@@ -83,9 +83,9 @@ function openLastTab(){
     updateCounter();
 }
 
-var firstTabContent = "<div id='overview'><img src='images/julian-border.png'><header><b>Julian</b>Ngo</header><p id='ver'><b>Version</b> 21.5</p> <p>TEST line 1</p> <p>TEST line 2</p> <p>TEST line 3</p></div>";
+var firstTabContent = "<div id='overview'><img src='images/Julian.jpg'><header><b>Julian</b>Ngo</header><p id='ver'><b>Version</b> 21.5</p> <br> </p><p>I strive to dedicate myself to go above and beyond for any and all tasks that come my way, whether it be in an individual setting or a team-based. I understand that design and management are fluid work systems that requires constant evolution and adaptability to ensure that each project and work environment is as productive as possible.</p> <br><br> <a href='docs/Ngo_Resume_0325.pdf' rel='noopener noreferrer' target='_blank' class='myButton'>Resume<a> <a href='mailto:jultngo@gmail.com' class='myButton'>E-mail Me!<a></div>";
 
-var tab2Content = "";
+var tab2Content = "<embed src= 'MyHome.pdf' width= '500' height= '375'>";
 
 var tab3Content = "<div id='skills'> <table> <tr> <td></td>  <td>Coding</div><div class='empty-bar'><div class='fill-80' id='coding-bar'></div></td> </tr>  <tr> <td></td>  <td>Design</div><div class='empty-bar'><div class='fill-80'></div></td> </tr>  <tr> <td></td>  <td>Other Skills</div><div class='empty-bar'><div class='fill-80'></div></td> </tr></table> </div>";
 
