@@ -11,6 +11,7 @@ function closeWindowAM(){
     $('.aboutMe').remove();
     $('.preference-window').removeClass("active-state-1");
     $('.preference-buttons').removeClass("active");
+    $('.preference-name').empty();
     $('.tabs').remove();
     reset();
 }

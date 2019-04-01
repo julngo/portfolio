@@ -8,6 +8,13 @@ var data ={
     },
     "projects":[
         {
+        "name": "<a onclick='openLucid()' class='blue-text'>Lucid Screens</a>",
+        "description": "Qualitative research and redesign of technology on a college campus",
+        "type": "Qualitative UX Research",
+        "role": "Project Manager, UX Research, UX Designer",
+        "date": "Oct 2018 - Dec 2018"
+        },
+        {
         "name": "<a onclick='openAE()' class='blue-text'>Anti-Establishment</a>",
         "description": "Alternate reality game where the University of Washington Bothell campus was the board.",
         "type": "Alternate Reality Game",
@@ -139,6 +146,7 @@ function closeWindow(){
     $('.proj-buttons').removeClass("active");
     $('.veda').remove();
     $('.anti-establishment').remove();
+    $('.lucid').remove();
     
 }
 
